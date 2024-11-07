@@ -1,20 +1,15 @@
 
+
+
 #include <stdio.h>
 
 int main()
 {
-    int a,b;
-    printf("enter the first integer:");
-    scanf("%d",&a);
-    printf("enter the second integer:");
-    scanf("%d",&b);
-    if(a>b)
-        {
-            printf("a is greater integer %d",a);
-            
-        }
-        else
-           printf(" b is greater integer %d",b);
+    int n,cube;
+    printf("enter the number:");
+    scanf("%d",&n);
+    cube=n*n*n;
+    printf("the cube of the number %d",cube);
 
     return 0;
 }
